@@ -132,3 +132,22 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+img {
+    width: 100%;  /* This makes the image take the full width of its container */
+    max-width: 600px;  /* Prevents the image from growing too large */
+    height: auto;  /* Maintains aspect ratio */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Adds a shadow for better visual effect */
+}
+
+figure {
+    text-align: center;  /* Centers the image and the caption */
+    margin: 20px 0;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #666;
+    margin-top: 8px;
+}
