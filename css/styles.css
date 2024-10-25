@@ -151,3 +151,35 @@ figcaption {
     color: #666;
     margin-top: 8px;
 }
+
+.tree-menu {
+    list-style-type: none;  /* Removes default list bullets */
+    padding-left: 0;
+}
+
+.tree-menu li {
+    padding: 8px;
+}
+
+.tree-menu > li {  /* Top-level items */
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.tree-menu li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    transition: color 0.2s;
+}
+
+.tree-menu li a:hover {
+    color: #007BFF;
+}
+
+.tree-menu ul {
+    list-style-type: none;
+    padding-left: 20px;
+    border-left: 1px solid #ddd; /* Adds a line to indicate hierarchy */
+}
